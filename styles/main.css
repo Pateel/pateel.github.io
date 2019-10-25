@@ -1,8 +1,12 @@
+
+
+
 .paragraph { 
     color: black;
     text-align: right;
     margin-left: 30px;
     font-size: 30px;
+ 
 }
 
 .paragraph {
@@ -12,14 +16,14 @@
     font-size: 30px;
 }
 
-
 .header {
     font-weight: 800;
-    font-size: 30px;
+    font-size: 30px; 
 }
 
 .blue {
     color: white;
+   
 }
 .italic {
     font-style: italic;
@@ -27,12 +31,16 @@
 
 .width-100 {
     width:100%;
+   
 }
+
+
 h1.jumbotron-heading {
+    background-color: white;
     font-size: 40px;
     color: black;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-weight: 700
+    font-weight: 700   
 }
 
 
@@ -41,8 +49,12 @@ h2.jumbotron-heading {
     color: black;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-style: italic;
+    background-color: white; 
 }   
 
 h3. Welcome to my page! {
      color: black;
+
 }
+
+
