@@ -1,11 +1,9 @@
 
-
-
 .paragraph { 
     color: black;
     text-align: right;
     margin-left: 30px;
-    font-size: 30px;
+    font-size: 60px;
  
 }
 
@@ -13,12 +11,13 @@
     color: black;
     text-align: left;
     margin-left: 30px;
-    font-size: 30px;
+    font-size: 60px;
 }
 
 .header {
     font-weight: 800;
-    font-size: 30px; 
+    font-size: 70px; 
+    font color; white;
 }
 
 .blue {
@@ -34,10 +33,13 @@
    
 }
 
+.container {
+    background-color: white;   
+}
+
 
 h1.jumbotron-heading {
-    background-color: white;
-    font-size: 40px;
+    font-size: 50px;
     color: black;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-weight: 700   
@@ -45,16 +47,13 @@ h1.jumbotron-heading {
 
 
 h2.jumbotron-heading {
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-style: italic;
-    background-color: white; 
 }   
 
 h3. Welcome to my page! {
      color: black;
-
 }
-
 
