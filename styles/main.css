@@ -1,15 +1,18 @@
 
+ .navbar-.light alert .navbar-nav .nav-link {
+   color: black;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+}
+
+
+<p class="p-1">Paragraph style 1</p>
+
+<p class="p-1">Paragraph style 2</p>
+
 .paragraph { 
     color: black;
     text-align: right;
-    margin-left: 30px;
-    font-size: 60px;
- 
-}
-
-.paragraph {
-    color: black;
-    text-align: left;
     margin-left: 30px;
     font-size: 60px;
 }
@@ -20,25 +23,9 @@
     font color; white;
 }
 
-.blue {
-    color: white;
-   
-}
-.italic {
-    font-style: italic;
-}
-
-.width-100 {
-    width:100%;
-   
-}
-
-.container {
-    background-color: white;   
-}
 
 
-h1.jumbotron-heading  {
+h1.jumbotron-heading {
     font-size: 50px;
     color: black;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -46,17 +33,12 @@ h1.jumbotron-heading  {
     text-align: center;
 }
 
-div.a { text-align: center; } 
+div.a {text-align: center; 
+} 
 
 
-h2.jumbotron-heading {
-    font-size: 30px;
-    color: black;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-style: italic;
-}   
-
-h3. Welcome to my page! {
-     color: black;
-}
+h3.class-name {
+    Welcome to my page!
+} 
+ 
 
