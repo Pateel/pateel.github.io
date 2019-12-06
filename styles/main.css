@@ -1,6 +1,4 @@
-
-
-.paragraph { 
+.paragraph {
     color: black;
     text-align: right;
     margin-left: 30px;
@@ -9,25 +7,50 @@
 
 .header {
     font-weight: 800;
-    font-size: 70px; 
-    font color; white;
+    font-size: 70px;
+    font color;
+    white;
 }
-
-.
 
 h1.jumbotron-heading {
     font-size: 50px;
     color: black;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-weight: 700  
+    font-weight: 700 text-align: center;
+}
+
+div.a {
     text-align: center;
 }
 
-div.a {text-align: center; 
-} 
+.text-right {
+    text-align: right;
+}
 
+.footer-text {
+    margin-top:15px;
+    color:#495057;
+}
 
-h3.class-name {
-    Welcome to my page!
-} 
+/* 3 ways to theme footer in css */
 
+/* Themeing a tag directly <footer></footer> */
+footer {
+    background-color: rgba(0, 0, 0, 0.03);
+    color: #495057;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* Themeing a tag with id <footer id="footer"></footer> */
+#footer-id {
+    background-color: rgba(0, 0, 0, 0.03);
+    color: #495057;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* Themeing a tag with class <footer class="footer"></footer> */
+.footer-id {
+    background-color: rgba(0, 0, 0, 0.03);
+    color: #495057;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
